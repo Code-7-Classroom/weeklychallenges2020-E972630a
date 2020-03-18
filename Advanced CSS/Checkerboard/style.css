@@ -1,0 +1,21 @@
+.container {
+    width: 800px;
+    height: 800px;
+    border: solid 2px black;
+}
+.row {
+    display: flex;
+}
+.row:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+.black {
+    background-color: black;
+}
+.white {
+    background-color: white;
+}
+.black, .white {
+    height: 100px;
+    width: 100px;
+}

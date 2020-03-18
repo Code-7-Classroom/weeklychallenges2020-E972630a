@@ -1,0 +1,50 @@
+
+
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+h1, h2 {
+    font-family: cursive;;
+    text-align: center;
+    font-weight: bold;
+}
+h1::before,
+h1::after {
+    content: "\f1ea";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 400; 
+}
+
+header {
+    background: url(jonas-allert-Zxnorp8tDNU-unsplash.jpg) no-repeat center center/cover;
+    height: 500px;
+    margin-top: 0;
+}
+
+.column {
+    display: grid;
+    grid-row-gap: 2em;
+    grid-column-gap: 3em ;
+    height: 800px;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+    
+    &__section {
+            text-align: left;
+            padding: 2em;
+    }
+
+    &__section--spacing {
+        line-height: 1.8em;
+    }
+}
+
+.column1--image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}

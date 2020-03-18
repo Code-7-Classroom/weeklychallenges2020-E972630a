@@ -1,0 +1,45 @@
+.container {
+    width: 50%;
+    box-sizing: border-box;
+    border: solid 1px black;
+}
+.red__stripe {
+    background-color: red;
+}
+.white__stripe {
+    background-color: white;
+}
+.red__stripe, .white__stripe {
+    display: flex;
+    height: 25px;
+}
+img {
+    position: absolute;
+    height: 174.5px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+/* @media only screen and (max-width: 800px) {
+.container {
+    width: 50%;
+    height: 50%;
+}
+
+.red__stripe {
+    background-color: red;
+}
+.white__stripe {
+    background-color: white;
+}
+.red__stripe, .white__stripe {
+    display: flex;
+    height: 12.5px;
+}
+img {
+    position: absolute;
+    height: 87.25px;
+    margin-top: 1.5px;
+    margin-left: 1.5px;
+} 
+} */
+
