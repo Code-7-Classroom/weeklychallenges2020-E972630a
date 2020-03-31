@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Website for colognes and perfumes">
+    <meta name="keywords" content="colognes, perfumes, smell good, fragrance">
+    <title>Ecommerce Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <img class="logo-img" alt="perfume logo" src="../img/Logo3.png">
+            <div class="container">
+                <h1>PFRAGRANCE</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="current" href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="showcase"></div>
+
+    <div id="filterBtn">
+        <h2>Filter:</h2>
+        <button class="btn" onclick="filterSelection('all')">Show All</button>
+        <button class="btn" onclick="filterSelection('lessExpensive')">Less Expensive</button>
+        <button class="btn" onclick="filterSelection('moreExpensive')">More Expensive</button>
+        <button class="btn" onclick="filterSelection('women')">Women</button>
+        <button class="btn" onclick="filterSelection('men')">Men</button>
+    </div>
+    <div class="grid-container">
+        <div class="fragrance lessExpensive women">
+            <h1>Light Blue</h1>
+            <h2>Price: $74.96</h2>
+            <h2>Description:</h2>
+            <p>Light Blue Perfume by Dolce & Gabbana. Light Blue is an aroma anchored in flower notes and fruity aromas,
+                perfect for women looking to freshen their scent and arouse the apple of their eye.</p>
+            <a href="https://www.fragrancex.com/products/_cid_perfume-am-lid_l-am-pid_884w__products.html?sid=LIGHTVIAL"
+                target="_blank" rel="noopener"><img src="img/lightblue.jpg" class="grid-img"
+                    alt="womens     Light Blue perfume"></a>
+        </div>
+        <div class="fragrance moreExpensive men">
+            <h1>Versace Eros</h1>
+            <h2>Price: $82.10</h2>
+            <h2>Description:</h2>
+            <p>Versace Eros Cologne by Versace. Let loose your passion and display your immense confidence with Versace
+                Eros, a provocative men’s cologne. This daring fragrance blends aromatic, earthy and woody accords for a
+                radiant and magnetic scent that’s sure to turn heads in any room you enter.</p>
+            <a href="https://www.fragrancex.com/products/_cid_cologne-am-lid_v-am-pid_69867m__products.html?sid=VEMINM"
+                target="_blank" rel="noopener"><img src="img/ver67m.jpg" class="grid-img"
+                    alt="mens Versace Eros cologne"></a>
+        </div>
+        <div class="fragrance moreExpensive women">
+            <h1>Bright Crystal</h1>
+            <h2>Price: $87.81</h2>
+            <h2>Description:</h2>
+            <p>Bright Crystal Perfume by Versace. A sweet floral heart of magnolia and peony is softened by watery lotus
+                and blends into a warm, rich base of mahogany, musk and amber. Perfect for women of all ages.</p>
+            <a href="https://www.fragrancex.com/products/_cid_perfume-am-lid_b-am-pid_61100w__products.html?sid=BCMINW"
+                target="_blank" rel="noopener"><img src="img/brightcrystal.jpg" class="grid-img"
+                    alt="womens Bright Crystal perfume"></a>
+        </div>
+        <div class="fragrance lessExpensive men">
+            <h1>Eternity(for men)</h1>
+            <h2>Price: $39.26</h2>
+            <h2>Description:</h2>
+            <p>Eternity Cologne by Calvin Klein. Calls for confidence and strength. Mandarin orange, lemon, and bergamot
+                give an instant punch of clear, juicy citrus. Their energizing sweetness is softened only by a dash of
+                herbal lavender. Middle notes of coriander, basil, jasmine, and sage combine for a complex aroma. Spicy
+                and green, floral and sweet, the nose luxuriates in their sexy entanglement.</p>
+            <a href="https://www.fragrancex.com/products/_cid_cologne-am-lid_e-am-pid_352m__products.html?sid=METERN"
+                target="_blank" rel="noopener"><img src="img/eternitymen.jpg" class="grid-img"
+                    alt="mens Eternity cologne"></a>
+        </div>
+        <div class="fragrance lessExpensive women">
+            <h1>Jimmy Choo</h1>
+            <h2>Price: $43.55</h2>
+            <h2>Description:</h2>
+            <p>Jimmy Choo Perfume by Jimmy Choo. Jimmy Choo is an empowering and sensual scent for the woman who knows
+                what she wants. This sophisticated and seductive fragrance makes for the perfect accessory when you
+                desire to hold someone’s attention. With a generous longevity and sillage, this perfume can make a
+                lasting impression.</p>
+            <a href="https://www.fragrancex.com/products/_cid_perfume-am-lid_j-am-pid_67930w__products.html?sid=JC15M"
+                target="_blank" rel="noopener"><img src="img/jimmychoo.jpg" class="grid-img"
+                    alt="womens Jimmy Choo perfume"></a>
+        </div>
+        <div class="fragrance moreExpensive men">
+            <h1>Sauvage</h1>
+            <h2>Price: $186.99</h2>
+            <h2>Description:</h2>
+            <p>Sauvage Cologne by Christian Dior. The inspiration for the fragrance is drawn from vast landscapes and
+                wilderness, and its name is French for “wild.” The scent begins with top notes of pepper and Calabrian
+                bergamot followed by a menagerie of heart notes such as patchouli, geranium, vetiver, lavender, pink
+                pepper, Sichuan pepper, and elemi. Its warm and woody base consists of cedar, labdanum, and ambroxan.
+            </p>
+            <a href="https://www.fragrancex.com/products/_cid_cologne-am-lid_s-am-pid_73223m__products.html?sid=SM34PS"
+                target="_blank" rel="noopener"><img src="img/sauvage.jpg" class="grid-img"
+                    alt="mens Sauvage cologne"></a>
+        </div>
+        <div class="fragrance lessExpensive women">
+            <h1>Euphoria</h1>
+            <h2>Price: $57.83</h2>
+            <h2>Description:</h2>
+            <p>Euphoria Perfume by Calvin Klein. Is a heavenly and intoxicating perfume for the woman. Its original
+                blend of sparkly and sweet ingredients is simply irresistible. Persimmon and pomegranate open the scent
+                with an uncommon kick. The two fruits combine for a rich aroma of musky, sweet wine deepened by green
+                accords.</p>
+            <a href="https://www.fragrancex.com/products/_cid_perfume-am-lid_e-am-pid_60582w__products.html?sid=WEUPORIACC"
+                target="_blank" rel="noopener"><img src="img/euphoria.jpg" class="grid-img"
+                    alt="womens Euphoria perfume"></a>
+        </div>
+        <div class="fragrance lessExpensive men">
+            <h1>Cool Water</h1>
+            <h2>Price: $26.04</h2>
+            <h2>Description:</h2>
+            <p>Cool Water Cologne by Davidoff. Cool Water is a men’s aromatic aquatic cologne with aromatic, fresh
+                spicy, marine, green, and woody main accords. The fragrance is suitable for summer day wear and has
+                moderate sillage and longevity.</p>
+            <a href="https://www.fragrancex.com/products/_cid_cologne-am-lid_c-am-pid_127m__products.html?sid=CWMT67"
+                target="_blank" rel="noopener"><img src="img/coolwater.jpg" class="grid-img"
+                    alt="mens Cool Water cologne"></a>
+        </div>
+        <div class="fragrance lessExpensive women">
+            <h1>Red Door</h1>
+            <h2>Price: $27.84</h2>
+            <h2>Description:</h2>
+            <p>Red Door Perfume by Elizabeth Arden. Red Door is a floral oriental fragrance for women. This now classic
+                fragrance strikes the perfect balance between floral, woody and spicy accords. The perfume opens with
+                notes of orange blossom, plum, peach and anise. The heart, containing notes of rose, jasmine,
+                lily-of-the-valley, ylang ylang, orris and honey, is intensely floral and sweet. The fragrance closes
+                with warm spicy notes of heliotrope, sandalwood, cedar, musk, amber and benzoin.</p>
+            <a href="https://www.fragrancex.com/products/_cid_perfume-am-lid_r-am-pid_1099w__products.html?sid=RD34WT"
+                target="_blank" rel="noopener"><img src="img/reddoor.jpg" class="grid-img"
+                    alt="womens Red Door perfume"></a>
+        </div>
+        <div class="fragrance lessExpensive men">
+            <h1>Versace Man</h1>
+            <h2>Price: $72.82</h2>
+            <h2>Description:</h2>
+            <p>Versace Man Cologne by Versace. Is a Mediterranean-inspired fragrance, the scent of which hints at summer
+                days by the water. The cologne’s fresh and clean top notes of lemon, bergamot, rosewood and rose give
+                way to an alluring heart of cedar, tarragon, sage and pepper. The base notes of amber, musk, tobacco,
+                sycamore and saffron combine to create an everyday scent that fosters confidence in nearly every
+                situation, from a day at the office to a vacation at the beach.</p>
+            <a href="https://www.fragrancex.com/products/_cid_cologne-am-lid_v-am-pid_1680m__products.html?sid=VFMM"
+                target="_blank" rel="noopener"><img src="img/versaceman.jpg" class="grid-img"
+                    alt="mens Versace Men cologne"></a>
+        </div>
+        <div class="fragrance lessExpensive women">
+            <h1>Obsession(for women)</h1>
+            <h2>Price: $24.98</h2>
+            <h2>Description:</h2>
+            <p>Obsession Perfume by Calvin Klein. This perfume creates an intoxicating blend of powdery and balsamic
+                tones. Green notes, vanilla, fruity peach, bergamot, lemon, mandarin orange and aromatic basil open the
+                scent. The middle is comprised of spices, coriander, cedar, rose, oakmoss, jasmine, orange blossom,
+                sandalwood and jasmine. The bottom dries down with accords of smoky incense, earthy vetiver, civet,
+                vanilla, musk and amber. </p>
+            <a href="https://www.fragrancex.com/products/_cid_perfume-am-lid_o-am-pid_1002w__products.html?sid=W160628O"
+                target="_blank" rel="noopener"><img src="img/obession.jpg" class="grid-img"
+                    alt="womens Obsession perfume"></a>
+        </div>
+        <div class="fragrance moreExpensive men">
+            <h1>The One</h1>
+            <h2>Price: $77.82</h2>
+            <h2>Description:</h2>
+            <p>The One Cologne by Dolce & Gabbana. The One by Dolce & Gabbana is a unique blend of amber and spicy
+                accords. The cologne opens with notes of crisp bergamot, peppery basil and warm coriander. These scents
+                give way to the middle notes of cardamom, ginger, and neroli, giving a warm and lightly floral heart.
+                The fragrance closes with scents of cedar, ambergris and tobacco, striking a distinctly masculine note.
+            </p>
+            <a href="https://www.fragrancex.com/products/_cid_cologne-am-lid_t-am-pid_61199m__products.html?sid=TO33PS"
+                target="_blank" rel="noopener"><img src="img/theone.jpg" class="grid-img"
+                    alt="mens The One cologne"></a>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <footer id="main-footer">
+        <p>PFRAGRANCE &copy; 2020 | All Rights Reserved</p>
+        <a target="_blank" rel="noopener" href="https://www.facebook.com/"><img class="social"
+                src="https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png"
+                alt="facebook logo"></a>
+        <a target="_blank" rel="noopener" href="https://www.instagram.com/"><img class="social"
+                src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png"
+                alt="instagram logo"></a>
+        <a target="_blank" rel="noopener" href="https://twitter.com/?lang=en"><img class="social"
+                src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-512.png"
+                alt="twitter logo"></a>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

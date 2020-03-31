@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Website for colognes and perfumes">
+    <meta name="keywords" content="colognes, perfumes, smell good, fragrance">
+    <title>Ecommerce Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <img class="logo-img" alt="perfume logo" src="../img/Logo3.png">
+            <div class="container">
+                <h1>PFRAGRANCE</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a class="current" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contact-form" class="py-3">
+        <div class="contact-container">
+            <h1 class="l-heading--center"> <span class="text-primary">Contact</span> Us</h1>
+            <p class="l-paragraph-center">Please fill out the form below to contact us</p>
+            <form onsubmit="return validation()">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message or Questions:</label>
+                    <textarea name="message" id="message" required></textarea>
+                    <button onclick="" type="submit" class="btn">Submit</button> <br>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="clr"></div>
+
+    <footer id="main-footer">
+        <p>PFRAGRANCE &copy; 2020 | All Rights Reserved</p>
+        <a target="_blank" rel="noopener" href="https://www.facebook.com/"><img class="social"
+                src="https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png"
+                alt="facebook logo"></a>
+        <a target="_blank" rel="noopener" href="https://www.instagram.com/"><img class="social"
+                src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png"
+                alt="instagram logo"></a>
+        <a target="_blank" rel="noopener" href="https://twitter.com/?lang=en"><img class="social"
+                src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-512.png"
+                alt="twitter logo"></a>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
