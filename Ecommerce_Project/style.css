@@ -191,11 +191,11 @@ p {
 }
 /* Footer */
 #main-footer {
+    position: fixed;
     text-align: center;
     background: #191970;
     color: #fff;
     padding: 20px;
-    position: fixed;
     width: 100%;
     z-index: 300;
     bottom: 0;
