@@ -13,5 +13,5 @@ var foods = ['apple', 'sandwich', 'chips']
 console.log(foods)
 //Combined meals
 
-var meals = [...drinks, ...foods]
-console.log()
+var meals = [drinks, foods]
+console.log(meals)
