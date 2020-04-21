@@ -1,0 +1,19 @@
+body {
+background-color: black;
+}
+
+h1{
+    color: blueviolet;
+}
+
+button {
+    padding: 10px;
+}
+
+.background-red {
+    background-color: red;
+}
+
+.background-white {
+    background-color: white;
+}

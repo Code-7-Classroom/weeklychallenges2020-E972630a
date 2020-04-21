@@ -1,0 +1,1 @@
+The var statement declares a function-scoped or globally-scoped variable, optionally initializing it to a value. The let statement is similar to var but "let" has scope. "let" is only accessible in the block level it's defined. The const statement is used to assign a constant value to the variable and the value cannot be changed, it's fixed. 
