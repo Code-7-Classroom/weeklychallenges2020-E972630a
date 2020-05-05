@@ -11,7 +11,8 @@ app.get('/', function (req, res)  {
 
 });
 
-//GET METHOD
+//GET METHOD 
+//http://localhost:3000/employees
 app.get('/employees', (req, res) => {
     if (!data) {
         res.status(404).send(`Couldn't find the employee`)
@@ -19,6 +20,7 @@ app.get('/employees', (req, res) => {
 
     res.send(data)
 });
+//http://localhost:3000/employees/1
 app.get('/employees/:id', function (req, res) {
     const sData = data.employees.find(function (employee) {
         return parseInt(req.params.id) === employee.id
@@ -30,6 +32,12 @@ app.get('/employees/:id', function (req, res) {
 });
 
 //POST METHOD
+//http://localhost:3000/employees/
+// {
+// 	"name": "John Doe",
+// 	"salary": 323434,
+// 	"job": "Cook"
+// }
 app.post('/employees', function (req, res) {
     const sData = {
         id: data.employees.length + 1,
@@ -46,6 +54,12 @@ app.post('/employees', function (req, res) {
 });
 
 //PUT METHOD
+//http://localhost:3000/employees/1
+// {
+// 	"name": "Caspian Higgins",
+// 	"salary": 323434,
+// 	"job": "Cook"
+// }
 app.put('/employees/:id', function (req, res) {
     const sData = data.employees.find(function (employee) {
         return parseInt(req.params.id) === employee.id
@@ -62,6 +76,7 @@ app.put('/employees/:id', function (req, res) {
 });
 
 //DELETE METHOD
+//http://localhost:3000/employees/3
 app.delete('/employees/:id', function (req, res) {
     const sData = data.employees.find(function (employee) {
         return parseInt(req.params.id) === employee.id
