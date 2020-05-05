@@ -1,0 +1,64 @@
+{
+    "employees": [
+        {
+            "name": "Caspian Hogg",
+            "id": 1,
+            "salary": 100063,
+            "job": "Systems Programmer"
+        },
+        {
+            "name": "Shakeel Harvey",
+            "id": 2,
+            "salary": 87087,
+            "job": "Mobile Specialist/Technologist"
+        },
+        {
+            "name": "Nigel Noble",
+            "id": 3,
+            "salary": 88335,
+            "job": "Software Developer"
+        },
+        {
+            "name": "Millicent Morales",
+            "id": 4,
+            "salary": 97035,
+            "job": "Software Engineer"
+        },
+        {
+            "name": "Malachy McDonald",
+            "id": 5,
+            "salary": 86162,
+            "job": "Application Developer"
+        },
+        {
+            "name": "Marcie Petersen",
+            "id": 6,
+            "salary": 73463,
+            "job": "Programmer/Analyst"
+        },
+        {
+            "name": "Rick Bowman",
+            "id": 7,
+            "salary": 68087,
+            "job": "Web Developer"
+        },
+        {
+            "name": "Amaan Salas",
+            "id": 8,
+            "salary": 94260,
+            "job": "Full Stack Engineer"
+        },
+        {
+            "name": "Shaan Jimenez",
+            "id": 9,
+            "salary": 115666,
+            "job": "DevOps Engineer"
+        },
+        {
+            "name": "Jonah Forbes",
+            "id": 10,
+            "salary": 100382,
+            "job": "Security Engineer"
+        }
+    ]
+}

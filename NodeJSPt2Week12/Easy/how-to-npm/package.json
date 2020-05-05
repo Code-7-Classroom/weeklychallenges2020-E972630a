@@ -1,0 +1,23 @@
+{
+  "name": "@esau_27/how-to-npm",
+  "version": "1.0.3",
+  "description": "how to npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Esau Aguilar Osuna",
+  "license": "MIT",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E972630a/how-to-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/E972630a/how-to-npm/issues"
+  },
+  "homepage": "https://github.com/E972630a/how-to-npm#readme"
+}
